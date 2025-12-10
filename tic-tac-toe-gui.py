@@ -5,7 +5,7 @@ from tkinter import messagebox
 # Create the main window
 window = tk.Tk()
 window.title("Tic-Tac-Toe")       
-window.geometry("300x300")         
+window.geometry("300x300")    #fixed the size of window     
 
 # Track the current player
 current_player = "X"
